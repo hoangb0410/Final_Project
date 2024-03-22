@@ -17,6 +17,11 @@ const HistoricalSiteController = {
             image_link: req.body.image[0].image_link,
             description: req.body.image[0].description,
           },
+          {
+            image_name: req.body.image[1].image_name,
+            image_link: req.body.image[1].image_link,
+            description: req.body.image[1].description,
+          },
         ],
       });
       const site = await newHistoricalSite.save();
@@ -27,6 +32,7 @@ const HistoricalSiteController = {
     }
   },
   // Get all users
+
   // Delete user
 };
 

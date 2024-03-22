@@ -31,7 +31,7 @@ const historicalSiteSchema = new mongoose.Schema(
       {
         image_name: { type: String, require: true },
         image_link: { type: String, require: true },
-        desciption: { type: String, require: true },
+        description: { type: String, require: true },
       },
     ],
   },
